@@ -10,9 +10,9 @@
     <form action="#" method="post">
         <fieldset>
             <legend>Sign up</legend>
-            <input type="text">
-            <input type="text">
-            <input type="text">
+            <input type="text" name="name" maxlength="30" minlength="3" required>
+            <input type="password" name="password" maxlength="30" minlength="6" required>
+            <textarea name="complaint" id="textarea" cols="30" rows="10" required></textarea>
         </fieldset>
         <button type="submit"></button>
     </form>
