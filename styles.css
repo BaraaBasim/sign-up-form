@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+
+.background-image {
+    display: inline-block;
+    background-image: url(resources/dalia-mu-jp5GsxfnREc-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 60vw;
+}
+
+
+.container {
+    display: inline-block;
+    width: 50%; /* Adjust width as needed */
+    font-size: 16px; /* Reset font-size for content inside elements */
+    box-sizing: border-box; /* Include padding and border in element width */
+  }
