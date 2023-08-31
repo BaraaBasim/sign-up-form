@@ -8,11 +8,20 @@ body {
     src: url(resources/Norse-Bold.otf);
 }
 
+.container {
+  background-color: #961111;
+  border: solid 2px red;
+  width: 50vw;
+  height: auto;
+}
+
 .header {
     font-family: "";
     font-size: 30px;
     font-weight: 600;
     border: 2px solid #472626cc;
+    
+    background-color: #472626cc;
 
 }
 
@@ -38,8 +47,7 @@ img {
 }
 
 .form-card {
-  background-color: #fff;
-
+  background-color: #961111;
 }
 
 .container {
