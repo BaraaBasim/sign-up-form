@@ -9,11 +9,12 @@ body {
 }
 
 .container {
-  background-color: #961111;
+  background-color: #fff;
   border: solid 2px red;
   width: 50vw;
   height: auto;
 }
+
 
 .header {
     font-family: "";
