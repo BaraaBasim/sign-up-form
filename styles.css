@@ -8,19 +8,31 @@ body {
     src: url(resources/Norse-Bold.otf);
 }
 
+.container {
+  background-color: #fff;
+  height: auto;
+}
+
+
 .header {
     font-family: "";
     font-size: 30px;
     font-weight: 600;
-    border: 2px solid #661e1ecc;
+    border: 2px solid #472626cc;
+
 }
 
 img {
     float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50vw;
+    height: 100%;
 }
 
 .background-image {
     position: relative;
+
     width: 30vw;
 }
 
@@ -32,13 +44,13 @@ img {
 }
 
 .form-card {
-
+  background-color: #961111;
 }
 
 .container {
-    margin: 5rem 1rem;
     display: inline-block;
-    width: 50%; 
+    width: 40vw;
+    margin: 5rem 1rem;
     font-size: 16px;
     box-sizing: border-box;
   }
