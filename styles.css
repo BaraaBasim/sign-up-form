@@ -2,3 +2,18 @@
   font-family: "Norse-Bold";
   src: url(resources/Norse-Bold.otf);
 }
+
+
+.main {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.left {
+
+}
+
+.right{
+
+}
