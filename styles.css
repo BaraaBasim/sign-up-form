@@ -28,4 +28,9 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 65vw;
+}
+
+.first, .second, .third {
+  height: 33vh;
 }
