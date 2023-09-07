@@ -53,3 +53,8 @@ p {
 .second {
   background-color: white;
 }
+
+.form-main {
+  display: flex;
+  
+}
