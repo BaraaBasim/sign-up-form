@@ -29,8 +29,27 @@ body{
   flex-direction: column;
   justify-content: center;
   width: 65vw;
+  background-color: #fafafa;
+}
+
+
+p {
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .first, .second, .third {
   height: 33vh;
+}
+
+.first {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+.second {
+  background-color: white;
 }
