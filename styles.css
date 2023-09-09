@@ -52,6 +52,8 @@ p {
 
 .second {
   background-color: white;
+  height: 33vh;
+  box-shadow: 5px 5px 5px #aaaaaa;
 }
 h2 {
   margin-left: 50px;
@@ -104,11 +106,12 @@ label {
   background-color: #596D48;
   color: white;
   border: 1px solid #596D48;
-  border-radius: 5px;
-  height: 30px;
+  border-radius: 10px;
+  height: 35px;
   width: 150px;
   font-weight: bolder;
   font-size: small;
+  box-shadow: 5px 5px 5px #aaaaaa;
 }
 
 .third {
