@@ -78,11 +78,11 @@ input {
 }
 
 input:focus {
-  border: 2px solid blue;
+  border: 1px solid blue;
 }
 
 input:invalid {
-  border: 2px solid red;
+  border: 1px solid red;
 }
 
 

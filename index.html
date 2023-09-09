@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up form</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
 </head>
 <body>
     <div class="main">
@@ -35,7 +36,8 @@
                         </div>
                         <div class="form-div">
                             <label for="password">PASSWORD</label>
-                            <input type="password" id="password" name="password">
+                            <input type="password" id="password" name="password" required>
+                            <p id="error"></p>
                         </div>
                     </div>
                     <div class="right-form">
@@ -49,7 +51,7 @@
                         </div>
                         <div class="form-div">
                             <label for="confPassword">CONFIRM PASSWORD</label>
-                            <input type="password" id="confPassword" name="conf_password">
+                            <input type="password" id="confPassword" name="conf_password" required>
                         </div>
                     </div>
                 </form>
