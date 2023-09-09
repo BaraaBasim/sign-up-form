@@ -85,4 +85,7 @@ input:invalid {
   border: 1px solid red;
 }
 
-
+label {
+  font-size: 13px;
+  color: #414141;
+}

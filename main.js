@@ -4,6 +4,6 @@ document.addEventListener("DOMContentLoaded", function () {
   let error = document.querySelector("#error");
 
   if (password != confPassword) {
-    error.innerHTML = "*passwords do not match";
+    error.innerText = "*passwords do not match";
   }
 });
