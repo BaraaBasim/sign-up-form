@@ -20,7 +20,8 @@ body{
   background-repeat: no-repeat;
   width: 35vw;
   color: white;
-  font-family: "Norse-Bold";
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -132,4 +133,21 @@ label {
   color: #596D48;
   text-decoration: none;
   font-weight: bold;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer p {
+  font-size: 13px;
+  text-align: center;
+
+}
+.odin-image {
+  font-family: "Norse-Bold";
 }
