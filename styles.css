@@ -115,3 +115,18 @@ label {
   margin-top: 25px;
   margin-left: 50px;
 }
+
+.already-reg {
+  margin-top: 25px;
+}
+
+.already-reg p {
+  font-size: 13px;
+  
+}
+
+.already-reg p a {
+  color: #596D48;
+  text-decoration: none;
+  font-weight: bold;
+}
