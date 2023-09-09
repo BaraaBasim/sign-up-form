@@ -37,7 +37,7 @@ body{
 
 p {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .first, .second, .third {
@@ -64,7 +64,7 @@ h2 {
 .form-main {
   display: flex;
   margin-left: 50px;
-  width: 60%;
+  width: 50%;
   justify-content: space-between;
 
 }
@@ -77,9 +77,9 @@ h2 {
 }
 
 input {
-  width: 200px;
+  width: 250px;
   border: 1px solid #E5E7EB;
-  height: 20px;
+  height: 23px;
   border-radius: 5px;
 
 }
@@ -95,6 +95,7 @@ input:invalid {
 label {
   font-size: 13px;
   color: #414141;
+  font-weight: 600;
 }
 
 #error {
