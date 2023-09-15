@@ -20,7 +20,8 @@ body{
   background-repeat: no-repeat;
   width: 35vw;
   color: white;
-  font-family: "Norse-Bold";
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -30,12 +31,13 @@ body{
   justify-content: center;
   width: 65vw;
   background-color: #fafafa;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
 p {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .first, .second, .third {
@@ -52,12 +54,17 @@ p {
 
 .second {
   background-color: white;
+  height: 33vh;
+  box-shadow: 5px 5px 5px #aaaaaa;
+}
+h2 {
+  margin-left: 50px;
 }
 
 .form-main {
   display: flex;
   margin-left: 50px;
-  width: 60%;
+  width: 50%;
   justify-content: space-between;
 
 }
@@ -70,13 +77,99 @@ p {
 }
 
 input {
-  width: 200px;
+  width: 250px;
   border: 1px solid #E5E7EB;
-  height: 20px;
+  height: 23px;
   border-radius: 5px;
 
 }
 
 input:focus {
-  border: 2px solid blue;
+  border: 1px solid blue;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+label {
+  font-size: 13px;
+  color: #414141;
+  font-weight: 600;
+}
+
+#error {
+  color: red;
+  font-size: 10px;
+  margin: 1px;
+}
+
+
+.btn-green {
+  background-color: #596D48;
+  color: white;
+  border: 1px solid #596D48;
+  border-radius: 10px;
+  height: 35px;
+  width: 150px;
+  font-weight: bolder;
+  font-size: small;
+  box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+.third {
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+.already-reg {
+  margin-top: 25px;
+}
+
+.already-reg p {
+  font-size: 13px;
+  
+}
+
+.already-reg p a {
+  color: #596D48;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer p {
+  font-size: 13px;
+  text-align: center;
+
+}
+
+.semi-transparent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+
+}
+
+.odin-image {
+  font-family: "Norse-Bold";
+  font-size: 40px;
+  height: 37vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.semi-transparent img {
+  height: 130px;
 }
